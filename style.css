@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.logo{
+    text-align: center;
+    background-color: rgb(149, 177, 233);
+    color: white;
+    padding: 0.5em;
+  }
+  h4 {
+    color: #633333; /* Text color */
+    font-size: 1.5em; /* Adjust the font size */
+    margin-bottom: 10px; /* Add space below the heading */
+    text-align: center; /* Center the text */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease; /* Smooth transition over 0.3 seconds */
+}
+
+li:hover {
+    background-color: #9db6ce; /* Light gray color on hover */
+}
+
+
+
+li {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.film-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.bold-italic-text {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.highlight {
+    color: #007bff; /* Blue color */
+}
+
+.buy-button {
+    background-color: #28a745; /* Green color */
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
